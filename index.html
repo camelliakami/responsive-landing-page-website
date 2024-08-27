@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Burn house Rinterio</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primarycolor: '#ABEF5F',
+              },
+              fontFamily: {
+                primaryfont: ['Manrope', 'sans-serif'],
+            },
+            backgroundImage: {
+            'ftbg': "url('/imgages/bg.jpg')",
+      }
+            }
+          }
+        }
+      </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cd4f62ec44.js" crossorigin="anonymous"></script>
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body class="primaryfont">
+    <header class="bg-gradient-to-t from-white to-gray-200">
+      <nav class="container mx-auto">
+        <!-- Header Nav Area -->
+
+        <div class="navbar  ">
+          
+          <div class="navbar-start">
+            <div class="">
+              <a class="text-xl">
+                <i class="fa-solid fa-arrow-right bg-primarycolor p-1 rounded-full -rotate-45"></i>
+                <h1 class="font-bold inline">Rinterio</h1>
+              </a>
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+      <div class="navbar-end ">
+          <!-- Button and search icon --> 
+            <div class="hidden md:flex items-center justify-center gap-3">
+                <div class="">
+                <div class="flex items-center justify-center gap-3">
+                  <span class="material-symbols-outlined bg-white p-1 rounded-full">
+                    search
+                    </span>
+                    <span class="material-symbols-outlined  bg-white p-1 rounded-full">
+                      shopping_cart
+                      </span>
+                </div>
+                </div>
+</body>
